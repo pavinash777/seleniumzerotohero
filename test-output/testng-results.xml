@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-14T17:39:26 IST" name="Default suite" finished-at="2024-01-14T17:39:48 IST" duration-ms="21788">
+  <suite started-at="2024-01-14T18:26:54 IST" name="Default suite" finished-at="2024-01-14T18:27:30 IST" duration-ms="36363">
     <groups>
     </groups>
-    <test started-at="2024-01-14T17:39:26 IST" name="Default test" finished-at="2024-01-14T17:39:48 IST" duration-ms="21788">
-      <class name="basicprograms.NavigationCommands">
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:basicprograms.NavigationCommands@7c711375]" started-at="2024-01-14T17:39:26 IST" name="browserStart" finished-at="2024-01-14T17:39:36 IST" duration-ms="9399" status="PASS">
+    <test started-at="2024-01-14T18:26:54 IST" name="Default test" finished-at="2024-01-14T18:27:30 IST" duration-ms="36363">
+      <class name="basicprograms.WebElementCommands">
+        <test-method is-config="true" signature="browserStart()[pri:0, instance:basicprograms.WebElementCommands@5b03b9fe]" started-at="2024-01-14T18:26:54 IST" name="browserStart" finished-at="2024-01-14T18:27:03 IST" duration-ms="8907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStart -->
-        <test-method signature="navigateTo()[pri:0, instance:basicprograms.NavigationCommands@7c711375]" started-at="2024-01-14T17:39:36 IST" name="navigateTo" finished-at="2024-01-14T17:39:48 IST" duration-ms="11960" status="PASS">
+        <test-method signature="clearTextBox()[pri:1, instance:basicprograms.WebElementCommands@5b03b9fe]" started-at="2024-01-14T18:27:03 IST" name="clearTextBox" finished-at="2024-01-14T18:27:03 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateTo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:basicprograms.NavigationCommands@7c711375]" started-at="2024-01-14T17:39:48 IST" name="tearDown" finished-at="2024-01-14T17:39:48 IST" duration-ms="405" status="PASS">
+        </test-method> <!-- clearTextBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:basicprograms.WebElementCommands@5b03b9fe]" started-at="2024-01-14T18:27:03 IST" name="tearDown" finished-at="2024-01-14T18:27:03 IST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- basicprograms.NavigationCommands -->
+        <test-method is-config="true" signature="browserStart()[pri:0, instance:basicprograms.WebElementCommands@5b03b9fe]" started-at="2024-01-14T18:27:03 IST" name="browserStart" finished-at="2024-01-14T18:27:11 IST" duration-ms="7825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStart -->
+        <test-method signature="EnterText()[pri:2, instance:basicprograms.WebElementCommands@5b03b9fe]" started-at="2024-01-14T18:27:11 IST" name="EnterText" finished-at="2024-01-14T18:27:15 IST" duration-ms="4072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:basicprograms.WebElementCommands@5b03b9fe]" started-at="2024-01-14T18:27:15 IST" name="tearDown" finished-at="2024-01-14T18:27:15 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="browserStart()[pri:0, instance:basicprograms.WebElementCommands@5b03b9fe]" started-at="2024-01-14T18:27:15 IST" name="browserStart" finished-at="2024-01-14T18:27:22 IST" duration-ms="7070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStart -->
+        <test-method signature="ClickMethod()[pri:3, instance:basicprograms.WebElementCommands@5b03b9fe]" started-at="2024-01-14T18:27:22 IST" name="ClickMethod" finished-at="2024-01-14T18:27:30 IST" duration-ms="7281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:basicprograms.WebElementCommands@5b03b9fe]" started-at="2024-01-14T18:27:30 IST" name="tearDown" finished-at="2024-01-14T18:27:30 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- basicprograms.WebElementCommands -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
