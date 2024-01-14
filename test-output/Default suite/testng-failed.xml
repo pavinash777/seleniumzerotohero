@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicprograms.LaunchSafariBrowser">
+      <class name="basicprograms.BrowserCommands">
         <methods>
-          <include name="lanchSafariBrowser"/>
+          <include name="lanchFireFoxBrowser"/>
         </methods>
-      </class> <!-- basicprograms.LaunchSafariBrowser -->
+      </class> <!-- basicprograms.BrowserCommands -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
