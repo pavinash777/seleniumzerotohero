@@ -9,7 +9,7 @@ import utilities.Base;
 
 public class WebElementCommands extends Base {
 
-	/*
+	
 	@Test(priority=1)
 	public void clearTextBox() {
 		
@@ -123,7 +123,7 @@ public class WebElementCommands extends Base {
 		female.click();
 		Thread.sleep(2000);
 		System.out.println(female.isSelected());
-	}*/
+	}
 	
 	@Test(priority=6)
 	public void submitMethod() throws InterruptedException {
@@ -146,6 +146,47 @@ public class WebElementCommands extends Base {
 		
 		Assert.assertEquals(actUrl, expurl, "Url as expected");
 
+	}
+	
+	@Test(priority=7)
+	public void getTextMethod() throws InterruptedException {
+		
+		WebElement heading = driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/h5"));
+		
+		String expText = heading.getText();
+		String actText = "Login";
+		
+		Assert.assertEquals(expText, actText, "Text as expected");
+		
+		
+	}
+	
+	@Test(priority=8)
+	public void getCssValueMethod() throws InterruptedException {
+		
+		
+		//WebElement ele = driver.findElement(By.className("orangehrm-login-title"));
+		WebElement ele = driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/h5"));
+		System.out.println(ele.getCssValue("font-weight"));
+		System.out.println(ele.getCssValue("font-size"));
+		System.out.println(ele.getCssValue("letter-spacing"));
+		
+		
+	}
+	
+	@Test(priority=9)
+	public void getAttributeMethod() throws InterruptedException {
+		
+		
+		//WebElement ele = driver.findElement(By.className("orangehrm-login-title"));
+		WebElement ele = driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/h5"));
+		System.out.println(ele.getAttribute("class"));
+		
+		WebElement username = driver.findElement(By.name("username"));
+		System.out.println(username.getAttribute("class"));
+		System.out.println(username.getAttribute("placeholder"));
+		
+		
 	}
 	
 	
