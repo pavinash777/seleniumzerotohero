@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,22 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="basicprograms.BrowserCommands" class="method navigator-link" hash-for-method="getCurrentUrl">getCurrentUrl</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="basicprograms.BrowserCommands" class="method navigator-link" hash-for-method="getPageSource">getPageSource</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="basicprograms.BrowserCommands" class="method navigator-link" hash-for-method="getTitle">getTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="basicprograms.BrowserCommands" class="method navigator-link" hash-for-method="lanchFireFoxBrowser">lanchFireFoxBrowser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="basicprograms.NavigationCommands" class="method navigator-link" hash-for-method="navigateTo">navigateTo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -137,35 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">basicprograms.BrowserCommands</span>
+              <span class="class-name">basicprograms.NavigationCommands</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getCurrentUrl">
-                  </a> <!-- getCurrentUrl -->
-                  <span class="method-name">getCurrentUrl</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getPageSource">
-                  </a> <!-- getPageSource -->
-                  <span class="method-name">getPageSource</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getTitle">
-                  </a> <!-- getTitle -->
-                  <span class="method-name">getTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="lanchFireFoxBrowser">
-                  </a> <!-- lanchFireFoxBrowser -->
-                  <span class="method-name">lanchFireFoxBrowser</span>
+                  <a name="navigateTo">
+                  </a> <!-- navigateTo -->
+                  <span class="method-name">navigateTo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -173,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/d4/b1rnjrvs4tbfc0l5f8vb658r0000gn/T/testng-eclipse-1551893007/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/d4/b1rnjrvs4tbfc0l5f8vb658r0000gn/T/testng-eclipse--2132473448/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -182,7 +146,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;basicprograms.BrowserCommands&quot;/&gt;
+      &lt;class name=&quot;basicprograms.NavigationCommands&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -222,28 +186,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getPageSource')
-data.setCell(0, 2, 'basicprograms.BrowserCommands')
-data.setCell(0, 3, 27);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getCurrentUrl')
-data.setCell(1, 2, 'basicprograms.BrowserCommands')
-data.setCell(1, 3, 10);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'getTitle')
-data.setCell(2, 2, 'basicprograms.BrowserCommands')
-data.setCell(2, 3, 8);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'lanchFireFoxBrowser')
-data.setCell(3, 2, 'basicprograms.BrowserCommands')
-data.setCell(3, 3, 6);
+data.setCell(0, 1, 'navigateTo')
+data.setCell(0, 2, 'basicprograms.NavigationCommands')
+data.setCell(0, 3, 11960);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 51 ms</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -269,54 +221,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">basicprograms.BrowserCommands</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">basicprograms.NavigationCommands</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">lunchBrowserforGetMethods</span>
+                <span class="method-name">browserStart</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">getCurrentUrl</span>
-                <span class="method-start">8824 ms</span>
+                <span class="method-name">navigateTo</span>
+                <span class="method-start">9401 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8836 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">lunchBrowserforGetMethods</span>
-                <span class="method-start">9222 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">getPageSource</span>
-                <span class="method-start">16331 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">16359 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">lunchBrowserforGetMethods</span>
-                <span class="method-start">16730 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">getTitle</span>
-                <span class="method-start">24189 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">24199 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">lunchBrowserforGetMethods</span>
-                <span class="method-start">24581 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">lanchFireFoxBrowser</span>
-                <span class="method-start">31902 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">31909 ms</span>
+                <span class="method-start">21368 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
