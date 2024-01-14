@@ -23,6 +23,9 @@ public WebDriver driver;
 	
 	@AfterMethod
 	public void tearDown() {
-		driver.close();
+		// Close the WebDriver instance after all tests are executed
+        if (driver != null) {
+            driver.quit();
+        }
 	}
 }

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicprograms.NavigationCommands">
+      <class name="basicprograms.WebElementCommands">
         <methods>
-          <include name="navigateTo"/>
           <include name="tearDown"/>
+          <include name="isSelectedMethod"/>
           <include name="browserStart"/>
         </methods>
-      </class> <!-- basicprograms.NavigationCommands -->
+      </class> <!-- basicprograms.WebElementCommands -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
