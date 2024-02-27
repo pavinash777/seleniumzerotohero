@@ -24,6 +24,8 @@ public class LaunchBrowser {
 		String actTitle="OrangeHRM";
 		String expTitle= driver.getTitle();
 		
+		System.out.println(driver.manage().getCookies());
+		
 		Assert.assertEquals(expTitle, actTitle, "Title As Expected");
 		
 		driver.close();
