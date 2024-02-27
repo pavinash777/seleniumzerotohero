@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-14T21:16:05 IST" name="Default suite" finished-at="2024-01-14T21:16:19 IST" duration-ms="14315">
+  <suite started-at="2024-02-27T11:53:37 IST" name="Default suite" finished-at="2024-02-27T11:56:45 IST" duration-ms="187644">
     <groups>
     </groups>
-    <test started-at="2024-01-14T21:16:05 IST" name="Default test" finished-at="2024-01-14T21:16:19 IST" duration-ms="14315">
-      <class name="basicprograms.WebElementCommands">
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:basicprograms.WebElementCommands@57cf54e1]" started-at="2024-01-14T21:16:05 IST" name="browserStart" finished-at="2024-01-14T21:16:12 IST" duration-ms="7214" status="PASS">
+    <test started-at="2024-02-27T11:53:37 IST" name="Default test" finished-at="2024-02-27T11:56:45 IST" duration-ms="187644">
+      <class name="basicprograms.LaunchBrowser">
+        <test-method signature="lanchBrowser()[pri:0, instance:basicprograms.LaunchBrowser@6fd83fc1]" started-at="2024-02-27T11:53:37 IST" name="lanchBrowser" finished-at="2024-02-27T11:56:45 IST" duration-ms="187633" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserStart -->
-        <test-method signature="getCssValueMethod()[pri:8, instance:basicprograms.WebElementCommands@57cf54e1]" started-at="2024-01-14T21:16:12 IST" name="getCssValueMethod" finished-at="2024-01-14T21:16:12 IST" duration-ms="36" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getCssValueMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:basicprograms.WebElementCommands@57cf54e1]" started-at="2024-01-14T21:16:12 IST" name="tearDown" finished-at="2024-01-14T21:16:12 IST" duration-ms="117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:basicprograms.WebElementCommands@57cf54e1]" started-at="2024-01-14T21:16:12 IST" name="browserStart" finished-at="2024-01-14T21:16:19 IST" duration-ms="6761" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserStart -->
-        <test-method signature="getAttributeMethod()[pri:9, instance:basicprograms.WebElementCommands@57cf54e1]" started-at="2024-01-14T21:16:19 IST" name="getAttributeMethod" finished-at="2024-01-14T21:16:19 IST" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAttributeMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:basicprograms.WebElementCommands@57cf54e1]" started-at="2024-01-14T21:16:19 IST" name="tearDown" finished-at="2024-01-14T21:16:19 IST" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- basicprograms.WebElementCommands -->
+        </test-method> <!-- lanchBrowser -->
+      </class> <!-- basicprograms.LaunchBrowser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
